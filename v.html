@@ -1,0 +1,46 @@
+<html>
+    <head>
+    <style>
+        #one{
+            width: 10S0px;
+            height: 100px;
+            border: solid;
+        }
+        </style>
+      <script type="text/javascript">
+            function myfunction(){ //alert("fgfdgdg");}
+               var a =document.getElementById("ch").value;
+                 var b= document.getElementById("one");
+                b.style.backgroundColor=a;
+                
+                
+                //var sum=parseInt(a)+parseInt(b);
+//            document.getElementById("rs").value=sum;
+               // document.getElementById("rs").innerHTML=sum;
+               // document.write(sum);
+            //value=sum;
+                
+            }
+            
+        </script>
+    </head>
+    <body>
+        <center>
+        <form>
+        
+       
+        <!--button class="example" onclick="myfunction()">try</button-->
+       
+        <select id="ch" onchange="myfunction()">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        </select>
+        <div id="one" >
+            something
+        </div>
+        
+       
+        </form>
+        </center>
+    </body>
+</html>
